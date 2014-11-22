@@ -34,3 +34,4 @@ while True:
         GPIO.output(7,False)
    print data
    c.close() 
+GPIO.cleanup()  
