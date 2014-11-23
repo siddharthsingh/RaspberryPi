@@ -42,6 +42,7 @@ while True:
         GPIO.output(7,False) ## Turn off GPIO pin 7
    elif(data == 'close' ):
         print 'closing connection'
+        s.close()
         break
    c.close() 
 GPIO.cleanup()  
